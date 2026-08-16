@@ -1,28 +1,22 @@
 const regions = [
-  {
-    region: "Banaadir",
-    capital: "Muqdisho",
-  },
-  {
-    region: "Hiiraan",
-    capital: "Beledweyne",
-  },
-  {
-    region: "Galguduud",
-    capital: "Dhuusamareeb",
-  },
-  {
-    region: "Mudug",
-    capital: "Gaalkacyo",
-  },
-  {
-    region: "Nugaal",
-    capital: "Garoowe",
-  },
-  {
-    region: "Bari",
-    capital: "Boosaaso",
-  },
+  { region: "Awdal", capital: "Boorama" },
+  { region: "Bakool", capital: "Xuddur" },
+  { region: "Banaadir", capital: "Muqdisho" },
+  { region: "Bari", capital: "Boosaaso" },
+  { region: "Bay", capital: "Baydhabo" },
+  { region: "Galguduud", capital: "Dhuusamareeb" },
+  { region: "Gedo", capital: "Garbahaarrey" },
+  { region: "Hiiraan", capital: "Beledweyne" },
+  { region: "Jubbada Dhexe", capital: "Bu'aale" },
+  { region: "Jubbada Hoose", capital: "Kismaayo" },
+  { region: "Mudug", capital: "Gaalkacyo" },
+  { region: "Nugaal", capital: "Garoowe" },
+  { region: "Sanaag", capital: "Ceerigaabo" },
+  { region: "Shabeellaha Dhexe", capital: "Jowhar" },
+  { region: "Shabeellaha Hoose", capital: "Marka" },
+  { region: "Sool", capital: "Laascaanood" },
+  { region: "Togdheer", capital: "Burco" },
+  { region: "Woqooyi Galbeed", capital: "Hargeysa" },
 ];
 
 const regionsContainer = document.querySelector("#regionsContainer");
